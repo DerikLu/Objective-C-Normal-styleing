@@ -49,11 +49,7 @@ if (!error) {
 ```objc
 if (!error)
     return success;
-```
-
-or
-
-```objc
+    
 if (!error) return success;
 ```
 
@@ -79,7 +75,7 @@ if (!error) return success;
 * `NSURL *URL` vs. `NSString *URLString`
 * `NSString *releaseDateString`: 命名為String可避免型態誤會的情形。
 
-變數之指標與變數相關，因此應跟於變數
+變數之指標與變數相關，因此應緊跟於變數
 
 **For example**
 ```objc
