@@ -4,7 +4,7 @@ Refer to https://github.com/NYTimes/objective-c-style-guide
 
 ## 屬性與方法
 
-屬性使用.來呼叫，方法則使用中括號 `[ ]`
+屬性使用`.`來呼叫，方法則使用中括號 `[ ]`
 
 **For example**
 ```objc
@@ -88,7 +88,8 @@ NSString *text
 
 **Not**
 ```objc
-NSString* text` or `NSString * text
+NSString* text 
+NSString * text
 ```
 
 #### 變數修飾詞
@@ -118,7 +119,7 @@ Categories命名以功能性為方向
 @interface NSString (NYTAdditions)
 ```
 
-若增加方法或屬性於Category，其命名應使用app/organization做為前綴字，以避免與其他Category相衝
+若增加方法或屬性於`Category`，其命名應使用app/organization做為前綴字，以避免與其他Category相衝
 
 **For example**
 
