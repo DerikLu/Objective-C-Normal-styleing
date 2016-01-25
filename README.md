@@ -22,11 +22,12 @@ UIApplication.sharedApplication.delegate;
 
 * 方法的宣告中，`-`與`+`前後需接一個空格，參數之間也接一個空格。
 * 私有方法使用`_`為前綴字。
+* 方法後之參數使用`the`為前綴字。
 
 **For example**
 ```objc
 // Public method
-- (void)setExampleText:(NSString *)text image:(UIImage *)image;
+- (void)setExampleText:(NSString *)theText image:(UIImage *)theImage;
 
 // Private method
 - (void)_setupView;
@@ -151,4 +152,15 @@ Categories命名以功能性為方向
 @interface NSArray (NYTAccessors)
 - (id)objectOrNilAtIndex:(NSUInteger)index;
 @end
+```
+
+## NSArray, NSDictionary
+
+使用`@[]`及`@{}`來定義，Mutable則使用mutable copy方法
+
+```objc
+NSArray *array = @[@"1", @"2"];
+NSDictionary *dict = @{@"key" : @"2"};
+
+NSMutableArray *mutableArray = [@[@"1", @"2"] mutableCopy];
 ```
