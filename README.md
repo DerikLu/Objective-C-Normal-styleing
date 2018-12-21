@@ -79,14 +79,14 @@ UIApplication.sharedApplication.delegate;
 
 ### 方法內換行
 
-`if`/`else`/`switch`/`while` 大括號 `{ }`，起始於同一行，結束於下一行。
+* `if`/`else`/`switch`/`while` 大括號 `{ }`，起始於同一行，結束於下一行。
+* `if` 中 `else` / `else if` 應於 `}` 同一行
 
 **For example**
 ```objc
 if (user.isHappy) {
     // Do something
-}
-else {
+} else {
     // Do something else
 }
 ```
