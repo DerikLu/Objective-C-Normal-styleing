@@ -1,9 +1,8 @@
 # Objective-C-Normal-styling
 
-Refer to 
-https://github.com/NYTimes/objective-c-style-guide
-https://github.com/github/objective-c-style-guide
-https://gist.github.com/soffes/812796
+Refer to https://github.com/NYTimes/objective-c-style-guide
+Refer to https://github.com/github/objective-c-style-guide
+Refer to https://gist.github.com/soffes/812796
 
 ## Operators
 
